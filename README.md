@@ -5,6 +5,11 @@
 This plugin is designed to make **farming a first-class, rewarding progression path**, not just a side activity.
 
 ---
+### [Video Showcase](https://youtu.be/hRp0JYrmfKw)
+
+[![Watch the video](https://img.youtube.com/vi/hRp0JYrmfKw/maxresdefault.jpg)](https://youtu.be/hRp0JYrmfKw)
+
+---
 
 ## 🌄 Overview
 
