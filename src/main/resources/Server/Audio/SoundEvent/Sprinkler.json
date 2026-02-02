@@ -1,0 +1,12 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Sprinkler.ogg"
+      ]
+    }
+  ],
+  "MaxDistance": 100,
+  "PreventSoundInterruption": true,
+  "Volume": 0
+}

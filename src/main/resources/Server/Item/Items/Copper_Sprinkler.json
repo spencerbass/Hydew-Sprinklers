@@ -1,0 +1,86 @@
+{
+  "ItemLevel": 1,
+  "MaxStack": 25,
+  "Quality": "Technical",
+  "Scale": 1,
+  "UsePlayerAnimations": true,
+  "BlockType": {
+    "DrawType": "Model",
+    "CubeShadingMode": "Standard",
+    "Material": "Solid",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Items/Item/Crude_Sprinkler/Copper_Sprinkler.png"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Water",
+    "PlacementSettings": {
+      "PlaceInEmptyBlocks": true,
+      "RotationMode": "BlockNormal"
+    },
+    "HitboxType": "Potion",
+    "InteractionHitboxType": "Potion",
+    "CustomModelScale": 0.5,
+    "Opacity": "Solid",
+    "CustomModel": "Items/Item/Crude_Sprinkler/Crude_Sprinkler.blockymodel",
+    "StateData": {
+      "Id": "spenc:sprinkler"
+    },
+    "TickProcedure": {
+      "Type": "spenc:sprinkler_tick"
+    },
+    "ParticleColor": "#3e8dfb",
+    "BlockSoundSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "MatchSelf": "Disallowed",
+          "AllowSupportPropagation": false,
+          "Support": "Required"
+        },
+        {
+          "Support": "Disallowed",
+          "BlockSetId": "Empty"
+        }
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/Copper_Sprinkler.png",
+  "RenderDeployablePreview": false,
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Farmingbench",
+        "RequiredTierLevel": 3,
+        "Categories": [
+          "Farming"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 3
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Water_Essence",
+        "Quantity": 2
+      }
+    ]
+  }
+}

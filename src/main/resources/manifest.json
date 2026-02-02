@@ -1,0 +1,21 @@
+{
+  "Group": "spenc",
+  "Name": "Hydew - Sprinklers",
+  "Version": "0.0.2",
+  "Description": "Adds Stardew Valley style sprinklers to HyTale!",
+  "Authors": [
+    {
+      "Name": "spenc"
+    }
+  ],
+  "Website": "github.com/spencerbass",
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:BlockModule": "*",
+    "Hytale:TimeModule": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.spenc.hydew.Main",
+  "IncludesAssetPack": true
+}
