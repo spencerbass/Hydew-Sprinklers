@@ -7,6 +7,7 @@ import com.hypixel.hytale.math.util.ChunkUtil
 import com.hypixel.hytale.protocol.Direction
 import com.hypixel.hytale.protocol.Position
 import com.hypixel.hytale.protocol.SoundCategory
+import com.hypixel.hytale.protocol.ToClientPacket
 import com.hypixel.hytale.protocol.packets.world.SpawnParticleSystem
 import com.hypixel.hytale.server.core.asset.type.blocktick.BlockTickStrategy
 import com.hypixel.hytale.server.core.asset.type.blocktick.config.TickProcedure
@@ -74,7 +75,7 @@ class SprinklerTickProcedure : TickProcedure() {
         )
 
         for ((pos, dir) in emitters) {
-            val packet = SpawnParticleSystem("Water_Splash", pos, dir, scale, null)
+            val packet = SpawnParticleSystem("Water_Splash", pos, dir, scale, null) as ToClientPacket
             for (player in world.playerRefs) {
                 player.packetHandler.writeNoCache(packet)
             }
