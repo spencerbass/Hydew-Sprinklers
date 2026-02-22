@@ -11,7 +11,7 @@ This plugin is designed to make **farming a first-class, rewarding progression p
 
 ---
 
-## 🌄 Overview
+## Overview
 
 Sprinklers automatically water nearby farm soil **every morning at 5:00 AM**.  
 Watering is time-based, tiered, and scales with progression, encouraging players to invest deeply into farming infrastructure.
@@ -23,7 +23,7 @@ Key goals:
 
 ---
 
-## ⏰ Watering Mechanics
+## Watering Mechanics
 
 - **Watering time:**  
   Sprinklers activate **once per day at 5:00 AM** (in-game time).
@@ -54,6 +54,7 @@ Higher tiers dramatically reduce manual labor and reward resource investment.
 ## 🔨 Crafting Recipes
 
 All sprinklers are crafted at the **Farming Bench** and scale in both cost and required bench tier.
+Sprinklers can be salvaged for most of their resources at the Salvage Bench.
 
 ---
 ### Crude Sprinkler
@@ -68,38 +69,38 @@ All sprinklers are crafted at the **Farming Bench** and scale in both cost and r
 - 3x Copper Bar
 - 4x Wood Trunk
 - 10x Life Essence
-- 2x Water Essence
+- 1x Water Essence
 ---
 ### Iron Sprinkler
 **Farming Bench – Tier 4**
 - 3x Iron Bar
 - 4x Wood Trunk
 - 10x Life Essence
-- 4x Water Essence
+- 1x Water Essence
 ---
 ### Thorium Sprinkler
 **Farming Bench – Tier 6**
 - 3x Thorium Bar
 - 4x Wood Trunk
 - 15x Life Essence
-- 8x Water Essence
+- 1x Water Essence
 ---
 ### Cobalt Sprinkler
 **Farming Bench – Tier 8**
 - 3x Cobalt Bar
 - 4x Wood Trunk
 - 20x Life Essence
-- 16x Water Essence
+- 1x Water Essence
 ---
 ### Adamantite Sprinkler
 **Farming Bench – Tier 10**
 - 3x Adamantite Bar
 - 4x Wood Trunk
 - 30x Life Essence
-- 32x Water Essence
+- 1x Water Essence
 
 ---
-## 🔊 Audio & Visual Feedback
+## Audio & Visual Feedback
 
 - Sprinklers play a **3D sound once per sprinkler per day**
 - Sound plays for all sprinklers simultaneously at 5:00 AM
@@ -108,7 +109,7 @@ All sprinklers are crafted at the **Farming Bench** and scale in both cost and r
 
 ---
 
-## 🎨 Assets Status
+## Assets Status
 
 ⚠️ **Assets are currently a work-in-progress**
 
@@ -118,7 +119,7 @@ All sprinklers are crafted at the **Farming Bench** and scale in both cost and r
 
 ---
 
-## 🌾 Project Vision
+## Project Vision
 
 **Hydew – Sprinklers** is planned as part of a **larger Hydew project** focused on bringing the **essence of Stardew Valley to Hytale**, including:
 
@@ -131,9 +132,6 @@ This plugin is the foundation.
 
 ---
 
-## 🐞 Feedback & Contributions
+## Feedback & Contributions
 
 Bug reports, balance feedback, and feature suggestions are **greatly appreciated**.
-
-If something feels off, confusing, or could be more fun — say so.  
-This project thrives on iteration and player feedback.

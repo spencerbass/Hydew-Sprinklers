@@ -14,12 +14,9 @@ class Main(init: JavaPluginInit) : JavaPlugin(init) {
         fun getInstance(): Main = instance
     }
 
-//    UNUSED
-//    private lateinit var farmSystem: DailyFarmSystem
-
     init {
         instance = this
-        LOGGER.atInfo().log("Hello from $name version ${manifest.version}")
+        LOGGER.atInfo().log("Starting $name version ${manifest.version}")
     }
 
     override fun setup() {
@@ -30,31 +27,6 @@ class Main(init: JavaPluginInit) : JavaPlugin(init) {
             SprinklerTickProcedure::class.java,
             SprinklerTickProcedure.CODEC
         )
-
-        // Daily logic
-        // UNUSED
-        // farmSystem = DailyFarmSystem()
     }
 
-//    UNUSED
-//    private var future: java.util.concurrent.ScheduledFuture<*>? = null
-
-    override fun start() {
-//        UNUSED
-//        future = HytaleServer.SCHEDULED_EXECUTOR.scheduleWithFixedDelay(
-//            {
-//                try {
-//                    morningScheduler.pollOnce()
-//                } catch (t: Throwable) {
-//                    Main.LOGGER.atSevere().withCause(t).log("pollOnce crashed")
-//                }
-//            },
-//            1, 1, TimeUnit.SECONDS
-//        )
-    }
-
-//    UNUSED
-//    override fun shutdown() {
-//        future?.cancel(false)
-//    }
 }
