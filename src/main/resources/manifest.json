@@ -1,7 +1,7 @@
 {
     "Group": "spenc",
     "Name": "Hydew - Sprinklers",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Description": "Adds Stardew Valley style sprinklers to HyTale!",
     "Authors": [
         {
@@ -10,6 +10,9 @@
     ],
     "Website": "github.com/spencerbass",
     "ServerVersion": "2026.02.19-1a311a592",
+    "UpdateChecker": {
+        "CurseForge": "1452465"
+    },
     "Dependencies": {
         "Hytale:BlockModule": "*",
         "Hytale:TimeModule": "*"

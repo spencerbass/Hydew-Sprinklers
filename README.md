@@ -57,41 +57,52 @@ All sprinklers are crafted at the **Farming Bench** and scale in both cost and r
 Sprinklers can be salvaged for most of their resources at the Salvage Bench.
 
 ---
+
 ### Crude Sprinkler
 **Farming Bench – Tier 2**
 - 3x Any Stone
 - 4x Wood Trunk
 - 10x Life Essence
 - 1x Water Essence
+
 ---
+
 ### Copper Sprinkler
 **Farming Bench – Tier 3**
 - 3x Copper Bar
 - 4x Wood Trunk
 - 10x Life Essence
 - 1x Water Essence
+
 ---
+
 ### Iron Sprinkler
 **Farming Bench – Tier 4**
 - 3x Iron Bar
 - 4x Wood Trunk
 - 10x Life Essence
 - 1x Water Essence
+
 ---
+
 ### Thorium Sprinkler
 **Farming Bench – Tier 6**
 - 3x Thorium Bar
 - 4x Wood Trunk
 - 15x Life Essence
 - 1x Water Essence
+
 ---
+
 ### Cobalt Sprinkler
 **Farming Bench – Tier 8**
 - 3x Cobalt Bar
 - 4x Wood Trunk
 - 20x Life Essence
 - 1x Water Essence
+
 ---
+
 ### Adamantite Sprinkler
 **Farming Bench – Tier 10**
 - 3x Adamantite Bar
@@ -100,6 +111,7 @@ Sprinklers can be salvaged for most of their resources at the Salvage Bench.
 - 1x Water Essence
 
 ---
+
 ## Audio & Visual Feedback
 
 - Sprinklers play a **3D sound once per sprinkler per day**
@@ -135,3 +147,5 @@ This plugin is the foundation.
 ## Feedback & Contributions
 
 Bug reports, balance feedback, and feature suggestions are **greatly appreciated**.
+
+[![Compatible with UpdateChecker](https://i.imgur.com/CpkvDty.png)](https://https://www.curseforge.com/hytale/mods/update-checker)
